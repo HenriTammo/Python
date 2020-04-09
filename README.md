@@ -24,7 +24,7 @@ branch:
 	<li>git checkout "nimi"(vahetus)</li>
 	<li>git push --set-upstream origin "nimi"(esimene push)</li>
   <li>git merge nädal1(kui masteris)</li>
-
+<br></br>
 Vigade otsimine: 
 Esimene eesmärk seoses vigade otsimisega võiks olla programmi käivitumine esimesel katsel, st programmi koodist on likvideeritud 
 esmased pisivead ja näpukad (süntaksivead). Selleks loe programm läbi ning veendu, et:
