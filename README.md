@@ -15,6 +15,10 @@ Info(siia hakkan juurde lisama):
 Gitbash info:
 <br></br>
 <ul>
+Liikumine git bashis oma kausta:
+  	<li>cd Desktop</li>
+	<li>cd python</li>
+	<li>cd koolitus(esimene push)</li>
 Ülesse laadimine
 	<li>git add . // git add --all</li>
 	<li>git commit -m "muutus"</li>
