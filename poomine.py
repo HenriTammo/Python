@@ -15,14 +15,14 @@ for x in range(18):
 while elud > 0:
     print (sõnaSpikker)
     asukoht = 0
+    replaced = False
     pakkumine = input("Paku mingi täht")
     for x in sõna:
         täht = x
         if pakkumine == täht:
             sõnaSpikker[asukoht] = pakkumine
-            asukoht = asukoht + 1
-        else:
-            elud = elud - 1
-            print ("seda tähte ei ole")
-            asukoht = asukoht + 1
+            replaced = True
+        asukoht = asukoht + 1
+    if replaced == False:
+        elud = elud - 1
 print ("mäng läbi")
