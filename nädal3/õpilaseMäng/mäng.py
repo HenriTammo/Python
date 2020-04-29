@@ -31,7 +31,7 @@ while combat == True:
     dmgDiablo = random.randint(10, Diablo["relv"])
     
   
-    if dmg >= 19:                                              #player ründab
+    if dmg >= Diablo["turvis"]:                                              #player ründab
         Diablo["elud"] = Diablo["elud"] - dmg
         print("Diablo elud", Diablo["elud"])
     else:
