@@ -1,0 +1,24 @@
+User@MAERTY-PC MINGW64 ~/desktop
+$ cd Desktop
+User@MAERTY-PC MINGW64 ~/desktop
+$ cd python/koolitus
+
+User@MAERTY-PC MINGW64 ~/desktop/python/koolitus (master)
+$ git add --all
+
+User@MAERTY-PC MINGW64 ~/desktop/python/koolitus (master)
+$ git commit -m "tubli töö"
+[master 3ed65cd] tubli töö
+ 9 files changed, 1199 insertions(+), 7 deletions(-)
+ create mode 100644 Proov.txt
+ create mode 100644 faildus.py
+ create mode 100644 "m\303\244ng.py"
+ create mode 100644 skoorid.py
+ create mode 100644 skoorid.txt
+ create mode 100644 sorteerimine.py
+ create mode 100644 sorteerimine.txt
+ create mode 100644 thisdict.py
+
+User@MAERTY-PC MINGW64 ~/desktop/python/koolitus (master)
+$ git push
+

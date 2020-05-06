@@ -1,0 +1,47 @@
+rännak = (
+misioon1 = 261, 
+misioon2 = 177,
+misioon3 = 160,
+misioon4 = 8,
+misioon5 = 392,
+misioon6 = 15, 
+misioon7 = 217,
+misioon8 = 262,
+misioon9 = 377, 
+misioon10 = 205,
+misioon11 = 92,
+misioon12 = 299,
+misioon13 = 65,
+misioon14 = 330, 
+misioon15 = 116,
+misioon16 = 314,
+misioon17 = 294,
+misioon18 = 106,
+misioon19 = 288,
+misioon20 = 84,
+misioon21 = 146, 
+misioon22 = 245,
+misioon23 = 393,
+misioon24 = 369,
+misioon25 = 390,
+misioon26 = 190,
+misioon27 = 318,
+misioon28 = 231,
+misioon29 = 224,
+misioon30 = 332,
+misioon31 = 103,
+misioon32 = 57)
+
+
+
+vastane2 = {
+    "elu" :vastaseinf.vastupidavus,
+    "relv" :vastaseinf.osavus,
+         
+    }
+
+vastane3 = {
+    "elu" :vastaseinf.vastupidavus,
+    "relv" :vastaseinf.osavus,
+         
+    }
