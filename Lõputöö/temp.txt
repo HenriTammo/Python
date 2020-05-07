@@ -1,4 +1,3 @@
-rännak = (
 misioon1 = 261, 
 misioon2 = 177,
 misioon3 = 160,
@@ -30,7 +29,7 @@ misioon28 = 231,
 misioon29 = 224,
 misioon30 = 332,
 misioon31 = 103,
-misioon32 = 57)
+misioon32 = 57
 
 
 

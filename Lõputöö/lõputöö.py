@@ -1,23 +1,27 @@
 import math
 import vastaseinf
 #import vastused
-#import backpack
+import Backpack
 import random
 import playerInf
 import täring
+import store
 
 playerInfo = playerInf.playerSetup()
 enemyInfo  = vastaseinf.NÕELUSS()
+newItems, newGold = store.store1(100)
+items = ["toiduained", "joogipoolis"]
+items = Backpack.update(items, newItems)
 
 player = {
     "nimi" : playerInfo[0],
     "relv" : playerInfo[1],
     "turvis" : playerInfo[2],
-    "kott" : ["toiduained", "joogipoolisega"],
+    "kott" : items,
     "vastupidavus" : playerInfo[3],
     "õnn"  : playerInfo[4],
     "osavus" : playerInfo[5],
-    "raha" : 30
+    "raha" : newGold
     }
 
 enemy = {
@@ -61,5 +65,6 @@ while combat == True:
             else:
                 player["kott"].append(enemy["drop"])
                 print("Sinu seljakotis on nüüd", player["kott"])
+        print("you win")
 
 #player["kott"] = bacpack.bp(player("kott"), items)
